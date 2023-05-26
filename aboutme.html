@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>About Me</title>
+  </head>
+  <header>
+    <nav class="main-nav" id="navbar">
+      <div>
+        <a href="./index.html">
+          <img class="logo" src="./images/logo1.png" />
+        </a>
+      </div>
+      <ul class="navigation">
+        <li>
+          <a href="./index.html">Home</a>
+        </li>
+        <li>
+          <a href="#">About</a>
+        </li>
+        <li>
+          <a href="./projects.html">Projects</a>
+        </li>
+        <li>
+          <a href="./contacts.html">Contacts</a>
+        </li>
+      </ul>
+      <button class="navBars" type="button" onclick="toggleNav()">
+        <i class="fa-solid fa-bars fa-4x"></i>
+      </button>
+    </nav>
+  </header>
+  <body>
+    <section class="about-me">
+      <div class="main-profile">
+        <div class="profile">
+          <img
+            class="profile-pic"
+            src="./images/profile.jpg"
+            alt="profile pic"
+          />
+          <h1>About Me</h1>
+        </div>
+
+        <div class="profile-bio">
+          <p>
+            Hello! My name is Ken. I am currently working as an NHS
+            Physiotherapist but have recently enjoyed creating things on the
+            internet. My interest in web development started back a year ago
+            through friends that work in the industry. I have started learning
+            front-end web development via codecademy and have started a created
+            a few projects that can be seen on my github. I am currently looking
+            to change career from physiotherapy to front-end web development.
+          </p>
+        </div>
+
+        <div class="technologies">
+          <p>
+            Here are a few of the technologies that I have been working with:
+          </p>
+          <ul class="tech-applications">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>Git</li>
+            <li>Github</li>
+            <li>Visual Studio Code</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="skills">
+      <ul class="skill-set">
+        <li>
+          <i class="fa-brands fa-html5 fa-2xl"></i>
+        </li>
+        <li>
+          <i class="fa-brands fa-css3-alt fa-2xl"></i>
+        </li>
+        <li>
+          <i class="fa-brands fa-js fa-2xl"></i>
+        </li>
+        <li>
+          <i class="fa-brands fa-git fa-2xl"></i>
+        </li>
+        <li>
+          <i class="fa-brands fa-github fa-2xl"></i>
+        </li>
+      </ul>
+    </section>
+    <script src="./script.js"></script>
+  </body>
+  <footer>
+    <p>Copyright© 2023 Ken Ashida</p>
+  </footer>
+</html>
