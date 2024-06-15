@@ -10,4 +10,8 @@ The website was meant to represent a basic professional protfolio page to later 
 - CSS
 - Javascript
 
-
+## Aim:
+- To apply basic knowledge of front end development gained through self-learning
+- To learn how to create a boiler plate HTML website
+- To demonstrate basic understanding of CSS
+- To implement basic functionality to website using Javascript 
